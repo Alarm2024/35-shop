@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>35 — Dubai Jewelry · Cash on Delivery</title>
+  <meta name="description" content="35 — premium jewelry in Dubai. Gemstones, 925 sterling &amp; accessories. Cash on delivery. Free delivery over 250 AED. Refunds welcome." />
+  <meta name="theme-color" content="#0a0a0a" />
+  <meta property="og:title" content="35 — Dubai Jewelry · Cash on Delivery" />
+  <meta property="og:description" content="Chosen with care. Gemstones, 925 sterling &amp; branded accessories. Pay when it arrives." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Sticky COD banner -->
+  <aside class="cod-banner" role="status">
+    <span class="cod-banner__dot" aria-hidden="true"></span>
+    <p>Cash on delivery · Free shipping over <strong>250 AED</strong> · Ships in UAE</p>
+    <a class="cod-banner__cta" href="https://wa.me/201064093135?text=Hi%2035%2C%20I%27d%20like%20to%20order%20(COD%20%C2%B7%20Dubai)" target="_blank" rel="noopener noreferrer">Order on WhatsApp</a>
+  </aside>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="#top" aria-label="35 home">
+        <span class="logo__mark">35</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#shop">Shop</a>
+        <a href="#policies">Policies</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="btn btn--ghost btn--sm" href="add.html">Add a piece</a>
+      <a class="btn btn--ghost btn--sm" href="https://wa.me/201064093135?text=Hi%2035%2C%20I%27d%20like%20to%20order%20(COD%20%C2%B7%20Dubai)" target="_blank" rel="noopener noreferrer">Chat to order</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <p class="eyebrow">Dubai · Cash on delivery</p>
+        <h1 class="hero__title">Chosen with care.</h1>
+        <p class="hero__lead">Quiet luxury jewelry — gemstones, 925 sterling, and branded accessories. Pay when it arrives.</p>
+        <div class="hero__actions">
+          <a class="btn btn--gold" href="#shop">Browse the edit</a>
+          <a class="btn btn--outline" href="https://wa.me/201064093135?text=Hi%2035%2C%20I%27d%20like%20to%20order%20(COD%20%C2%B7%20Dubai)" target="_blank" rel="noopener noreferrer">Order on WhatsApp</a>
+        </div>
+        <ul class="trust-chips" aria-label="Shopping assurances">
+          <li>Ships in UAE</li>
+          <li>Pay when it arrives</li>
+          <li>Free over 250 AED</li>
+          <li>Refunds allowed</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Section cards -->
+    <section class="sections" aria-labelledby="sections-heading">
+      <div class="wrap">
+        <h2 id="sections-heading" class="section-title">Three chapters</h2>
+        <p class="section-sub">Filter the shop below — or start from a chapter.</p>
+        <div class="section-cards">
+          <button type="button" class="section-card" data-filter="gemstones" aria-label="Shop Gemstones">
+            <span class="section-card__num">01</span>
+            <h3>Gemstones</h3>
+            <p>Colour, light, and presence — pieces that hold a quiet glow.</p>
+          </button>
+          <button type="button" class="section-card" data-filter="sterling" aria-label="Shop 925 Sterling">
+            <span class="section-card__num">02</span>
+            <h3>925 Sterling</h3>
+            <p>Solid silver weight. Everyday elegance that lasts.</p>
+          </button>
+          <button type="button" class="section-card" data-filter="accessories" aria-label="Shop Accessories">
+            <span class="section-card__num">03</span>
+            <h3>Accessories</h3>
+            <p>Branded pouches, trays, and care — the finishing touch.</p>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Shop -->
+    <section class="shop" id="shop" aria-labelledby="shop-heading">
+      <div class="wrap">
+        <div class="shop-head">
+          <h2 id="shop-heading" class="section-title">The shop</h2>
+          <div class="filter-tabs" role="tablist" aria-label="Product sections">
+            <button type="button" class="filter-tab is-active" role="tab" aria-selected="true" data-filter="all">All</button>
+            <button type="button" class="filter-tab" role="tab" aria-selected="false" data-filter="gemstones">Gemstones</button>
+            <button type="button" class="filter-tab" role="tab" aria-selected="false" data-filter="sterling">925 Sterling</button>
+            <button type="button" class="filter-tab" role="tab" aria-selected="false" data-filter="accessories">Accessories</button>
+          </div>
+        </div>
+        <p class="price-note">Add photos anytime · Price on WhatsApp until you set AED · COD</p>
+        <div class="product-grid" id="product-grid" aria-live="polite">
+          <!-- Filled by script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Policies accordion -->
+    <section class="policies" id="policies" aria-labelledby="policies-heading">
+      <div class="wrap policies-inner">
+        <h2 id="policies-heading" class="section-title">How it works</h2>
+        <p class="section-sub">Simple, clear, no card checkout — cash on delivery only.</p>
+
+        <div class="accordion">
+          <details class="accordion__item" open>
+            <summary>Cash on delivery</summary>
+            <div class="accordion__body">
+              <p>Message us with the piece you want. We confirm availability, size/notes, and delivery details. You pay in cash when your order arrives — no Visa or card payment on this site.</p>
+            </div>
+          </details>
+          <details class="accordion__item">
+            <summary>Delivery</summary>
+            <div class="accordion__body">
+              <p><strong>Ships in UAE.</strong> Free delivery on orders over <strong>250 AED</strong>. Under that, a small delivery fee may apply — we’ll confirm before you order. Typical handoff is arranged after WhatsApp confirmation.</p>
+            </div>
+          </details>
+          <details class="accordion__item">
+            <summary>Refunds</summary>
+            <div class="accordion__body">
+              <p>Refunds are allowed. If something isn’t right, message us promptly with photos. Unused items in original condition can be returned per our chat confirmation — we’ll keep it fair and fast.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact" aria-labelledby="contact-heading">
+      <div class="wrap contact-inner">
+        <h2 id="contact-heading" class="section-title">Order &amp; follow</h2>
+        <p class="section-sub">Dubai · Preferred channel: WhatsApp. Social: @35.dubai</p>
+        <div class="contact-actions">
+          <a class="btn btn--gold" href="https://wa.me/201064093135?text=Hi%2035%2C%20I%27d%20like%20to%20order%20(COD%20%C2%B7%20Dubai)" target="_blank" rel="noopener noreferrer">Order on WhatsApp</a>
+          <a class="btn btn--outline" href="https://www.instagram.com/35.dubai/" target="_blank" rel="noopener noreferrer">Instagram @35.dubai</a>
+          <a class="btn btn--outline" href="https://www.tiktok.com/@35.dubai" target="_blank" rel="noopener noreferrer">TikTok @35.dubai</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="footer-brand">
+        <span class="logo__mark">35</span>
+        <p>Dubai · Chosen with care</p>
+      </div>
+      <ul class="footer-meta">
+        <li>COD</li>
+        <li>Free over 250 AED</li>
+        <li>Refunds</li>
+        <li>Dubai</li>
+      </ul>
+      <ul class="footer-social">
+        <li><a href="https://www.instagram.com/35.dubai/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+        <li><a href="https://www.tiktok.com/@35.dubai" target="_blank" rel="noopener noreferrer">TikTok</a></li>
+        <li><a href="https://wa.me/201064093135?text=Hi%2035%2C%20I%27d%20like%20to%20order%20(COD%20%C2%B7%20Dubai)" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+      </ul>
+      <p class="footer-copy">&copy; <span id="year"></span> 35. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="catalog-store.js"></script>
+  <script src="products.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

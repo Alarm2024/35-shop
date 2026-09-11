@@ -1,0 +1,7 @@
+{
+  "name": "35-shop",
+  "private": true,
+  "dependencies": {
+    "@cloudflare/kv-asset-handler": "^0.3.4"
+  }
+}
